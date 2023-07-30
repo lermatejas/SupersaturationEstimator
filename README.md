@@ -8,7 +8,12 @@ This algorithm simulates the supersaturation estimator with error bounds.
 4-Msc. Ing. Estefania Aguirre.
 
 The authors have implemented their own methodology to obtain and model-based estimator and it error bound of  3 standard deviations.
-The estimator is based on the C Crystallization C model proposed by Damour[1] and a supersaturation model . 
+The estimator is based on the C Crystallization C model proposed by Damour[1] and a supersaturation model.
+
+To execute the code download
+1-SS_Estimator_error_bound.m
+2-
+
  Cite this: 
 
  
