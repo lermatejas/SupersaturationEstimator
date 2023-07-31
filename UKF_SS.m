@@ -20,7 +20,7 @@ global aux2 ts2
 if isempty(aux2)
     v1 = [4 2 4.5 2.5 1];           % Weights of the main diagonal in PP
     v2 = [1 1 1 1 1];               % Weights of the main diagonal in Qe
-    v3 = [1 1 1 ];
+    v3 = [1 1 40 ];
 
     PP = diag(v1);
     Qe = 0.01*diag(v2);
