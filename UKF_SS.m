@@ -18,9 +18,9 @@ global aux2 ts2
  ts2=30;
 %---------------UKF Initialization-------------------------------
 if isempty(aux2)
-    v1 = [4 2 4.5 2.5 1];           % Weights of the main diagonal in PP
+    v1 = [40 20 45 25 1.0];           % Weights of the main diagonal in PP
     v2 = [1 1 1 1 1];               % Weights of the main diagonal in Qe
-    v3 = [1 1 40 ];
+    v3 = [5 5 400 ];
 
     PP = diag(v1);
     Qe = 0.01*diag(v2);
