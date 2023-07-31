@@ -77,7 +77,7 @@ M_vapor=1.34;  % masa vapor (kg/seg)
 load_system('Evaporator') %Invisibly load Simulink model
 sim('Evaporator')
 %-----Simulink returns the model states -and the supersaturation 
-C=Pxe.Data*100;                                                     % Covariance Matrix
+C=Pxe.Data;                                                     % Covariance Matrix
 Mw = Mw.Data; Mi = Mi.Data; Mc = Mc.Data; Ms = Ms.Data; T = T.Data; % States 
 x=[Mw Mi Mc Ms T];                                                  % State vectors
 time=SS.Time/3600;                                                  % Time Vector
