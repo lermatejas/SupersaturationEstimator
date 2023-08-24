@@ -11,12 +11,14 @@ This algorithm simulates the supersaturation estimator with error bounds.
 The authors have implemented their own methodology to obtain a model-based supersaturation estimator and its error bound of  3 standard deviations. The estimator is based on the C Crystallization C model proposed by Damour[1] and a supersaturation model [2].
 
 To execute the code:
-1-Download all the files describes as UKF_File_x
+1-Download all the files described as UKF_File_x
 2-Execute SS_Estimator_error_bound.m
 
 
  Cite this paper as: 
-
+H. Morales, F.d. Sciascio, E Aguirre-Zapata, A. Amicarelli, A model-based supersaturation estimator (inferential or soft-sensor)
+for industrial sugar crystallization process, Journal of Process Control (2023) 103065,https://doi.org./10.1016/j.jprocont.2023.103065
+ 
  
 
 Reference
